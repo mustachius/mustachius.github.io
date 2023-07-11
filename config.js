@@ -18,7 +18,7 @@ const CONFIG = {
   title: 'Bento',
 
 	// Theme
-	theme: 'bento',
+	theme: 'latte-mocha',
 	imageBackground: false,
   imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
@@ -62,9 +62,9 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Hackernews',
+			icon: 'newspaper',
+			link: 'https://news.ycombinator.com/',
 		},
 		{
 			id: '2',
