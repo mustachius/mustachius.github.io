@@ -12,7 +12,7 @@ const CONFIG = {
 
   
 	// General
-	name: 'John',
+	name: 'João Víctor',
 	openInNewTab: true,
 	twelveHourFormat: false,
   title: 'Bento',
@@ -23,10 +23,10 @@ const CONFIG = {
   imageUrl: './assets/background.jpg', // Set custom background image URL. If the page is served insecurely, you may have issues loading images from pages over https.
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Bom dia!',
+	greetingAfternoon: 'Boa tarde,',
+	greetingEvening: 'Boa noite,',
+	greetingNight: 'Vai dormir!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -35,11 +35,11 @@ const CONFIG = {
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
-	language: 'en', // More languages in https://openweathermap.org/current#multi
+	language: 'pt_br', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '-24.0964',
+	defaultLongitude: '-52.6183',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -74,9 +74,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'FileWarez',
+			icon: 'arrow-down-to-line',
+			link: 'https://filewarez.tv/portal.php',
 		},
 		{
 			id: '4',
@@ -121,7 +121,7 @@ const CONFIG = {
 			id: '4',
 			name: 'Amazon',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://amazon.com.br/',
 		},
 		{
 			id: '5',
@@ -170,16 +170,16 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Instagram',
+					link: 'https://www.instagram.com',
 				},
 				{
 					name: 'Dribbble',
 					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Webmail',
+					link: 'https://webmail.uffs.edu.br/',
 				},
 				{
 					name: 'Slack',
